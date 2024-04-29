@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: ReithSans, Helvetica, Arial, sans-serif;
+    color: rgb(20, 20, 20);
+    background-color: #f6f6f6;
+}
+
+.cabecera{    
+    font-size: 80px;
+    color: orange;    
+}
+
+.navbar_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 2% 0;
+}
+.navbar_list li{
+    display: inline-block;
+    padding: 0 2% 1% 0;
+}
+.navbar_list li a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+
+main{
+    padding: 5% 20%;
+    display: flex;
+}
+
+section{
+    width: 70%;
+    object-position: top;
+}
+
+
+.main_title{
+    font-size: 230%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+
+.main_parrafo{
+    font-size: medium;
+    color: rgb(84, 86, 88);
+    border-left: thin solid;
+    padding-left: 2%;
+}
+
+
+#img_votacion{
+    object-fit: scale-down;
+    width: 100%;
+}
+
+#img_papaandy{
+    object-fit: scale-down;
+    width: 100%;
+}
+
+
+.banner{
+    background-color: #524b4b;
+    padding: 2% 20%;
+    font-size: 15px;
+    color: white;
+}
+
+.aside_news{
+    
+    font-size: medium;
+    padding: 8%;
+    margin-bottom: 8%;
+    background-color: #f6f6f6;
+}
+
+.aside_content{
+    margin: 0;
+}
+
+.aside_link{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+.table{
+    width: 80%;
+}
